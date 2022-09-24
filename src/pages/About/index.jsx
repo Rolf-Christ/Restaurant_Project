@@ -1,13 +1,13 @@
-import { a } from './../../assets/images/cooker-img.png'
+import { cookerimg } from './../../assets/images/cooker-img.png'
 
-export function About() {
+function About() {
   return (
     <section id="about-us">
       <div className="container">
         <div className="row">
           <div className="col-md-12">
             <div className="block">
-              <img src="/images/cooker-img.png" alt="cooker-img-assets" />
+              <img src="./../../assets/images/logo.png" alt="cooker-img-assets" />
               <h1
                 className="heading wow fadeInUp"
                 data-wow-duration="400ms"
@@ -35,3 +35,5 @@ export function About() {
     </section>
   )
 }
+
+export default About

@@ -1,3 +1,9 @@
+import photo1 from './../../assets/images//photo/photo-1.jpg'
+import photo2 from './../../assets/images//photo/photo-2.jpg'
+import photo3 from './../../assets/images//photo/photo-3.jpg'
+import photo4 from './../../assets/images//photo/photo-4.jpg'
+
+
 export function FooterInfo(params) {
   return (
     <section id="footer">
@@ -72,22 +78,22 @@ export function FooterInfo(params) {
                 <ul>
                   <li>
                     <a href="https://google.com">
-                      <img src="images/photo/photo-1.jpg" alt="" />
+                      <img src={photo1} alt="" />
                     </a>
                   </li>
                   <li>
                     <a href="https://google.com">
-                      <img src="images/photo/photo-2.jpg" alt="" />
+                      <img src={photo2} alt="" />
                     </a>
                   </li>
                   <li>
                     <a href="https://google.com">
-                      <img src="images/photo/photo-3.jpg" alt="" />
+                      <img src={photo3} alt="" />
                     </a>
                   </li>
                   <li>
                     <a href="https://google.com">
-                      <img src="images/photo/photo-4.jpg" alt="" />
+                      <img src={photo4} alt="" />
                     </a>
                   </li>
                 </ul>

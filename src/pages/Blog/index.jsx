@@ -1,3 +1,10 @@
+import blogimg1 from './../../assets/images/blog/blog-img-1.jpg'
+import blogimg2 from './../../assets/images/blog/blog-img-2.jpg'
+import blogimg3 from './../../assets/images/blog/blog-img-3.jpg'
+import blogimg4 from './../../assets/images/blog/blog-img-4.jpg'
+import blogimg5 from './../../assets/images/blog/blog-img-5.jpg'
+import blogimg6 from './../../assets/images/blog/blog-img-6.jpg'
+
 export function Blog() {
   return (
     <section id="blog">
@@ -15,7 +22,7 @@ export function Blog() {
                   data-wow-delay="300ms"
                 >
                   <div className="blog-img">
-                    <img src="images/blog/blog-img-1.jpg" alt="blog-img" />
+                    <img src={blogimg1} alt="blog-img" />
                   </div>
                   <div className="content-right">
                     <h3>Homestyle Chicken Pot Pie</h3>
@@ -31,7 +38,7 @@ export function Blog() {
                   data-wow-delay="400ms"
                 >
                   <div className="blog-img">
-                    <img src="images/blog/blog-img-2.jpg" alt="blog-img" />
+                    <img src={blogimg2} alt="blog-img" />
                   </div>
                   <div className="content-right">
                     <h3>Homestyle Chicken Pot Pie</h3>
@@ -54,7 +61,7 @@ export function Blog() {
                     </p>
                   </div>
                   <div className="blog-img-2">
-                    <img src="images/blog/blog-img-3.jpg" alt="blog-img" />
+                    <img src={blogimg3} alt="blog-img" />
                   </div>
                 </li>
                 <li
@@ -70,7 +77,7 @@ export function Blog() {
                     </p>
                   </div>
                   <div className="blog-img-2">
-                    <img src="images/blog/blog-img-4.jpg" alt="blog-img" />
+                    <img src={blogimg4} alt="blog-img" />
                   </div>
                 </li>
                 <li
@@ -79,7 +86,7 @@ export function Blog() {
                   data-wow-delay="700ms"
                 >
                   <div className="blog-img">
-                    <img src="images/blog/blog-img-5.jpg" alt="blog-img" />
+                    <img src={blogimg5} alt="blog-img" />
                   </div>
                   <div className="content-right">
                     <h3>Homestyle Chicken Pot Pie</h3>
@@ -95,7 +102,7 @@ export function Blog() {
                   data-wow-delay="800ms"
                 >
                   <div className="blog-img">
-                    <img src="images/blog/blog-img-6.jpg" alt="blog-img" />
+                    <img src={blogimg6} alt="blog-img" />
                   </div>
                   <div className="content-right">
                     <h3>Homestyle Chicken Pot Pie</h3>
