@@ -9,15 +9,6 @@ import './assets/css/animate.min.css'
 import './assets/css/main.css'
 import './assets/css/responsive.css'
 
-/* import './assets/js/vendor/jquery-1.10.2.min.js'
-import './assets/js/vendor/modernizr-2.6.2.min.js'
-
-import './assets/js/jquery.nav'
-import './assets/js/jquery.sticky'
-//import './assets/js/bootstrap.min.js'
-import './assets/js/plugins'
-import './assets/js/wow.min.js'
-import './assets/js/main.js' */
 
 import Home from './pages/Home'
 import Header from './components/Header'
